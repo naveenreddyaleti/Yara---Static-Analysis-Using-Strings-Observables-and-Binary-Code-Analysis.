@@ -1,0 +1,34 @@
+HW04:   Yara Static Analysis Using Strings,Observables
+
+Names of the malware samples that I have used for Analysis are :
+
+	1.	APT28_2016-10_ESET_Sednit A Mysterious Downloader/49ACBA812894444C634B034962D46F986E0257CF.exe_
+	2.	APT28_2016-10_ESET_Sednit A Mysterious Downloader/669A02E330F5AFC55A3775C4C6959B3F9E9965CF.exe_
+
+
+
+
+ Names of the samples that I got after running my yara signature on the folder "apt28" :
+
+        1.	APT28_2016-10_Sekoia_Rootkit analysisUse case on HideDRV/83E54CB97644DE7084126E702937F8C3A2486A2F_fsflt.sys_
+	2.	APT28_2016-10_Sekoia_Rootkit analysisUse case on HideDRV/9F3AB8779F2B81CAE83F62245AFB124266765939_fsflt.1
+	
+	3.	APT28_2016-10_ESET_Sednit A Mysterious Downloader/4C9C7C4FD83EDAF7EC80687A7A957826DE038DD7.exe_
+	4.	APT28_2016-10_ESET_Sednit A Mysterious Downloader/7394EA20C3D510C938EF83A2D0195B767CD99ED7_x32.dll_
+	5.	APT28_2016-10_ESET_Sednit A Mysterious Downloader/E8ACA4B0CFE509783A34FF908287F98CAB968D9E.exe_
+	6.	APT28_2016-10_ESET_Sednit A Mysterious Downloader/1CC2B6B208B7687763659AEB5DCB76C5C2FBBF26.scr_
+	7. 	APT28_2016-10_ESET_Sednit A Mysterious Downloader/9F3AB8779F2B81CAE83F62245AFB124266765939.exe_
+	8. 	APT28_2016-10_ESET_Sednit A Mysterious Downloader/49ACBA812894444C634B034962D46F986E0257CF.exe_
+	9.	APT28_2016-10_ESET_Sednit A Mysterious Downloader/669A02E330F5AFC55A3775C4C6959B3F9E9965CF.exe_
+	10.	APT28_2016-10_ESET_Sednit A Mysterious Downloader/593D0EB95227E41D299659842395E76B55AA048D.exe_
+	11.	APT28_2016-10_ESET_Sednit A Mysterious Downloader/516EC3584073A1C05C0D909B8B6C15ECB10933F1.exe_
+	12.	APT28_2016-10_ESET_Sednit A Mysterious Downloader/593D0EB95227E41D299659842395E76B55AA048D_dll_
+	13.	APT28_2016-10_ESET_Sednit A Mysterious Downloader/4F92D364CE871C1AEBBF3C5D2445C296EF535632.exe_
+	14.	APT28_2016-10_ESET_Sednit A Mysterious Downloader/5C132AE63E3B41F7B2385740B9109B473856A6A5.dll_
+
+
+
+
+As you can see in the samples that i have got after running yara, the first two samples are from the different folder .(not from the folder from which i picked the malware samples to do the analysis.) Also even though I have picked only two samples from a folder, I was able to get many other samples after running my yara signature apart from those which i have picked.
+
+Also I have run my yara signature on the benign_test folder and I did not get any results thereby i have reduced the faslepositives and made my yara signature more efficient and reliable.
