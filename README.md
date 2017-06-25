@@ -27,6 +27,7 @@
     4.Binary data containing byte alternatives ( 45 | 46 | 67 | … | )
 
 #Submission consists of: 
+
 1.List of all matching samples other than what I chose for building my signature.
 
 2.Sample Id (filename, or checksum) of the malware sample I built the rule from, as well as the location in the file/program that the binary code was identified. Included the disassembly (the x86 instructions) for the code that I am matching.
